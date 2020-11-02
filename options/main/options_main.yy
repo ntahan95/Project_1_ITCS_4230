@@ -7,7 +7,7 @@
   "option_steam_app_id": "0",
   "option_sci_usesci": true,
   "option_author": "Nicolas Tahan",
-  "option_lastchanged": "17 October 2020 21:13:46",
+  "option_lastchanged": "01 November 2020 21:26:00",
   "option_spine_licence": false,
   "resourceVersion": "1.2",
   "name": "Main",

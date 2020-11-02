@@ -4,21 +4,20 @@
 /// @DnDArgument : "direction" "270"
 gravity_direction = 270;
 
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 1784EC06
-/// @DnDArgument : "steps" "15"
-alarm_set(0, 15);
-
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 3C65DB91
-/// @DnDArgument : "code" "canShoot = true;"
-canShoot = true;
+/// @DnDHash : 678B7763
+/// @DnDArgument : "code" "//list that holds what gun's player has$(13_10)gunInventory = ds_list_create()$(13_10)//check for what gun is CURRENTLY being held$(13_10)gunHeld = "none"$(13_10)//check for gun$(13_10)hasGun = false$(13_10)//var for gun cycling$(13_10)check = -1$(13_10)$(13_10)/*this is here because cycling between guns changes$(13_10)the sprite, its a bit archaic so it can be changed$(13_10)later probably*/$(13_10)image_speed = 0"
+//list that holds what gun's player has
+gunInventory = ds_list_create()
+//check for what gun is CURRENTLY being held
+gunHeld = "none"
+//check for gun
+hasGun = false
+//var for gun cycling
+check = -1
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 462AFB3E
-/// @DnDArgument : "expr" "100"
-/// @DnDArgument : "var" "hp"
-hp = 100;
+/*this is here because cycling between guns changes
+the sprite, its a bit archaic so it can be changed
+later probably*/
+image_speed = 0/**/

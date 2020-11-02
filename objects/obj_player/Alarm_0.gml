@@ -1,5 +1,6 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 54A088BF
-/// @DnDArgument : "code" "canShoot = true;"
-canShoot = true;
+/// @DnDHash : 60D195C6
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "can_shoot"
+can_shoot = true;
