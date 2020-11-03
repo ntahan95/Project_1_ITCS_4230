@@ -1,3 +1,17 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 5EA1BEC6
+/// @DnDArgument : "code" "//if the player has a gun in the list, they hasGun$(13_10)if (ds_list_size(gunInventory) > 0){$(13_10)	hasGun = true;$(13_10)}$(13_10)//otherwise they dont $(13_10)else$(13_10){$(13_10)	hasGun = false;$(13_10)}"
+//if the player has a gun in the list, they hasGun
+if (ds_list_size(gunInventory) > 0){
+	hasGun = true;
+}
+//otherwise they dont 
+else
+{
+	hasGun = false;
+}
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 09AD72EA
