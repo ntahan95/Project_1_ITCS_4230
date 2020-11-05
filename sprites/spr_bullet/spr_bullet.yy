@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"79eca126-58fd-46d5-a92a-540ab9676f9f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "AmmoAssets",
+    "path": "folders/Sprites/AmmoAssets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bullet",

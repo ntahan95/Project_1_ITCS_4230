@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b57846e3-6916-492b-9a0c-3bda1eb423ad","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "EnemyAssets",
+    "path": "folders/Sprites/EnemyAssets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_soldier",

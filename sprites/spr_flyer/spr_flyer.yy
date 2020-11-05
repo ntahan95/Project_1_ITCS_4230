@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"10835e6d-d1d3-44ea-9b1c-d43a71352fff","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "EnemyAssets",
+    "path": "folders/Sprites/EnemyAssets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_flyer",

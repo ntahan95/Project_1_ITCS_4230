@@ -76,8 +76,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"be7b6787-47db-4901-ae0b-d1b3ca41a6f7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "PlayerAssets",
+    "path": "folders/Sprites/PlayerAssets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_player",

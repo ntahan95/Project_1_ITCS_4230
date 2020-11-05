@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dab95adc-3b74-4f18-b515-9c186f13106a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "EnemyAssets",
+    "path": "folders/Sprites/EnemyAssets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_walker",

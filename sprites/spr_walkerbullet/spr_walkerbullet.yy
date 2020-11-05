@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8bd1e64e-4ca6-46b6-8344-8c9eac9b3ca0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "AmmoAssets",
+    "path": "folders/Sprites/AmmoAssets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_walkerbullet",
