@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_twoTrees","path":"sprites/spr_twoTrees/spr_twoTrees.yy",},"order":5,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":1,},
     {"id":{"name":"obj_scoreboard","path":"objects/obj_scoreboard/obj_scoreboard.yy",},"order":2,},
     {"id":{"name":"obj_gun1","path":"objects/obj_gun1/obj_gun1.yy",},"order":11,},
@@ -11,6 +12,7 @@
     {"id":{"name":"addGun","path":"scripts/addGun/addGun.yy",},"order":0,},
     {"id":{"name":"spr_jungle1","path":"sprites/spr_jungle1/spr_jungle1.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_cutTrees","path":"sprites/spr_cutTrees/spr_cutTrees.yy",},"order":4,},
     {"id":{"name":"spr_walker","path":"sprites/spr_walker/spr_walker.yy",},"order":1,},
     {"id":{"name":"spr_walkerbullet","path":"sprites/spr_walkerbullet/spr_walkerbullet.yy",},"order":1,},
     {"id":{"name":"path_flyer","path":"paths/path_flyer/path_flyer.yy",},"order":0,},
@@ -18,9 +20,12 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"spr_gun2","path":"sprites/spr_gun2/spr_gun2.yy",},"order":0,},
     {"id":{"name":"obj_bulletWalker","path":"objects/obj_bulletWalker/obj_bulletWalker.yy",},"order":10,},
+    {"id":{"name":"spr_cutSingleTree","path":"sprites/spr_cutSingleTree/spr_cutSingleTree.yy",},"order":6,},
     {"id":{"name":"obj_absorb","path":"objects/obj_absorb/obj_absorb.yy",},"order":6,},
     {"id":{"name":"spr_flyer","path":"sprites/spr_flyer/spr_flyer.yy",},"order":2,},
+    {"id":{"name":"spr_singletree","path":"sprites/spr_singletree/spr_singletree.yy",},"order":3,},
     {"id":{"name":"obj_gun2","path":"objects/obj_gun2/obj_gun2.yy",},"order":12,},
+    {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},"order":7,},
     {"id":{"name":"spr_junglepath","path":"sprites/spr_junglepath/spr_junglepath.yy",},"order":2,},
     {"id":{"name":"obj_walker","path":"objects/obj_walker/obj_walker.yy",},"order":9,},
     {"id":{"name":"spr_gun1","path":"sprites/spr_gun1/spr_gun1.yy",},"order":1,},
