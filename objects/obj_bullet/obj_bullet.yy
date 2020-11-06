@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bullet",
-    "path": "sprites/spr_bullet/spr_bullet.yy",
+    "name": "spr_walkerbullet",
+    "path": "sprites/spr_walkerbullet/spr_walkerbullet.yy",
   },
   "solid": false,
   "visible": true,

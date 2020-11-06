@@ -18,7 +18,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_scoreboard","path":"objects/obj_scoreboard/obj_scoreboard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_scoreboard","path":"objects/obj_scoreboard/obj_scoreboard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
