@@ -33,8 +33,8 @@
     {"propertyId":{"name":"collision_damage","path":"objects/obj_harmful/obj_harmful.yy",},"objectId":{"name":"obj_harmful","path":"objects/obj_harmful/obj_harmful.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bulletWalker",

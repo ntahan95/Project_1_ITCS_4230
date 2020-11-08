@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "spr_gun2",
-    "path": "sprites/spr_gun2/spr_gun2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_gun1",
-    "path": "objects/obj_gun1/obj_gun1.yy",
+    "name": "obj_harmfulAbsorb",
+    "path": "objects/obj_harmfulAbsorb/obj_harmfulAbsorb.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [],
-  "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"gunType","path":"objects/obj_gun1/obj_gun1.yy",},"objectId":{"name":"obj_gun1","path":"objects/obj_gun1/obj_gun1.yy",},"value":"Rifle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  "properties": [
+    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"aggro","tags":[],"resourceType":"GMObjectProperty",},
   ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Properties",
+    "path": "folders/Objects/Properties.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gun2",
+  "name": "obj_boss",
   "tags": [],
   "resourceType": "GMObject",
 }

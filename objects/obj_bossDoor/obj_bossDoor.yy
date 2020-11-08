@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_gun2",
-    "path": "sprites/spr_gun2/spr_gun2.yy",
+    "name": "spr_bossDoor",
+    "path": "sprites/spr_bossDoor/spr_bossDoor.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_gun1",
-    "path": "objects/obj_gun1/obj_gun1.yy",
+    "name": "obj_absorb",
+    "path": "objects/obj_absorb/obj_absorb.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,15 +25,13 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"gunType","path":"objects/obj_gun1/obj_gun1.yy",},"objectId":{"name":"obj_gun1","path":"objects/obj_gun1/obj_gun1.yy",},"value":"Rifle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-  ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gun2",
+  "name": "obj_bossDoor",
   "tags": [],
   "resourceType": "GMObject",
 }

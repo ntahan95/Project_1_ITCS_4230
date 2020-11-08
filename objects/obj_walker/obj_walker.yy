@@ -43,8 +43,8 @@
     {"propertyId":{"name":"collision_damage","path":"objects/obj_harmfulAbsorb/obj_harmfulAbsorb.yy",},"objectId":{"name":"obj_harmfulAbsorb","path":"objects/obj_harmfulAbsorb/obj_harmfulAbsorb.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_walker",

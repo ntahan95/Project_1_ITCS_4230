@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Properties",
+    "path": "folders/Objects/Properties.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_absorb",

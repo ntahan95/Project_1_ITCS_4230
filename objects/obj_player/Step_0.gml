@@ -33,32 +33,46 @@ if (l09AD72EA_0)
 	var l008677F0_0 = instance_place(x + -move_speed, y + 0, obj_block);
 	if (!(l008677F0_0 > 0))
 	{
-		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-		/// @DnDVersion : 1
-		/// @DnDHash : 475D06D9
+		/// @DnDAction : YoYo Games.Collisions.If_Object_At
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 7513EE12
 		/// @DnDParent : 008677F0
 		/// @DnDArgument : "x" "-move_speed"
 		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y" "0"
 		/// @DnDArgument : "y_relative" "1"
-		x += -move_speed;
-		y += 0;
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 2AD68E13
-		/// @DnDParent : 008677F0
-		/// @DnDArgument : "expr" "-1"
-		/// @DnDArgument : "var" "image_xscale"
-		image_xscale = -1;
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 723C6E9F
-		/// @DnDParent : 008677F0
-		/// @DnDArgument : "expr" "true"
-		/// @DnDArgument : "var" "face_left"
-		face_left = true;
+		/// @DnDArgument : "object" "obj_bossDoor"
+		/// @DnDArgument : "not" "1"
+		/// @DnDSaveInfo : "object" "obj_bossDoor"
+		var l7513EE12_0 = instance_place(x + -move_speed, y + 0, obj_bossDoor);
+		if (!(l7513EE12_0 > 0))
+		{
+			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+			/// @DnDVersion : 1
+			/// @DnDHash : 475D06D9
+			/// @DnDParent : 7513EE12
+			/// @DnDArgument : "x" "-move_speed"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "0"
+			/// @DnDArgument : "y_relative" "1"
+			x += -move_speed;
+			y += 0;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 2AD68E13
+			/// @DnDParent : 7513EE12
+			/// @DnDArgument : "expr" "-1"
+			/// @DnDArgument : "var" "image_xscale"
+			image_xscale = -1;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 723C6E9F
+			/// @DnDParent : 7513EE12
+			/// @DnDArgument : "expr" "true"
+			/// @DnDArgument : "var" "face_left"
+			face_left = true;
+		}
 	}
 }
 
