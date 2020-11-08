@@ -148,6 +148,14 @@ if(l519A5745_0)
 				/// @DnDArgument : "expr" "false"
 				/// @DnDArgument : "var" "aggro"
 				aggro = false;
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 440CFC0D
+				/// @DnDParent : 0EF9C095
+				/// @DnDArgument : "speed" "-hsp"
+				/// @DnDArgument : "type" "1"
+				hspeed = -hsp;
 			}
 		}
 	}
