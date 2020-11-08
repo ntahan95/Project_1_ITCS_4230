@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"17816578-d0aa-4bbe-bd55-fdf466f62a18","path":"sprites/spr_alert/spr_alert.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"17816578-d0aa-4bbe-bd55-fdf466f62a18","path":"sprites/spr_alert/spr_alert.yy",},"LayerId":{"name":"3246a86f-2adb-4184-b5ce-f51d1bb99e68","path":"sprites/spr_alert/spr_alert.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_alert","path":"sprites/spr_alert/spr_alert.yy",},"resourceVersion":"1.0","name":"17816578-d0aa-4bbe-bd55-fdf466f62a18","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a7f03316-91f7-4794-99b6-2697d7f22d8c","path":"sprites/spr_danger/spr_danger.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a7f03316-91f7-4794-99b6-2697d7f22d8c","path":"sprites/spr_danger/spr_danger.yy",},"LayerId":{"name":"83574507-a308-49ee-8b3f-994860efaed6","path":"sprites/spr_danger/spr_danger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danger","path":"sprites/spr_danger/spr_danger.yy",},"resourceVersion":"1.0","name":"a7f03316-91f7-4794-99b6-2697d7f22d8c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_alert","path":"sprites/spr_alert/spr_alert.yy",},
+    "spriteId": {"name":"spr_danger","path":"sprites/spr_danger/spr_danger.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"348b96d1-0287-49de-82ca-2f3e1528de53","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"17816578-d0aa-4bbe-bd55-fdf466f62a18","path":"sprites/spr_alert/spr_alert.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d1891758-5051-4825-9574-ce283b80d1cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7f03316-91f7-4794-99b6-2697d7f22d8c","path":"sprites/spr_danger/spr_danger.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_alert","path":"sprites/spr_alert/spr_alert.yy",},
+    "parent": {"name":"spr_danger","path":"sprites/spr_danger/spr_danger.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_alert",
+    "name": "spr_danger",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3246a86f-2adb-4184-b5ce-f51d1bb99e68","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"83574507-a308-49ee-8b3f-994860efaed6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_alert",
+  "name": "spr_danger",
   "tags": [],
   "resourceType": "GMSprite",
 }

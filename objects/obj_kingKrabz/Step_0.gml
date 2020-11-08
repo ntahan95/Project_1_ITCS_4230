@@ -144,9 +144,9 @@ if(aggro == true)
 			/// @DnDHash : 38B5A0AE
 			/// @DnDComment : Boss uses irandom_range to$(13_10)choose his next state
 			/// @DnDParent : 0FD1F5F8
-			/// @DnDArgument : "expr" "1"
+			/// @DnDArgument : "expr" "2"
 			/// @DnDArgument : "var" "next_move"
-			next_move = 1;
+			next_move = 2;
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
@@ -283,18 +283,175 @@ if(aggro == true)
 		}
 	}
 
-	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 357444DE
+	/// @DnDHash : 67FDA342
+	/// @DnDComment : Final boss will summon turrets during his fight
 	/// @DnDParent : 09D3E254
-	else
+	/// @DnDArgument : "var" "spawning"
+	/// @DnDArgument : "value" "true"
+	if(spawning == true)
 	{
-		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDAction : YoYo Games.Movement.Set_Speed
 		/// @DnDVersion : 1
-		/// @DnDHash : 02B61C08
-		/// @DnDParent : 357444DE
-		/// @DnDArgument : "expr" "true"
-		/// @DnDArgument : "var" "can_shoot"
-		can_shoot = true;
+		/// @DnDHash : 75CA0A0F
+		/// @DnDParent : 67FDA342
+		speed = 0;
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 31C51D05
+		/// @DnDParent : 67FDA342
+		/// @DnDArgument : "var" "next_move"
+		/// @DnDArgument : "not" "1"
+		if(!(next_move == 0))
+		{
+			/// @DnDAction : YoYo Games.Loops.Repeat
+			/// @DnDVersion : 1
+			/// @DnDHash : 1E34BB2D
+			/// @DnDParent : 31C51D05
+			
+			{
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 43E3DFF8
+				/// @DnDParent : 1E34BB2D
+				/// @DnDArgument : "xpos" "random_range(x - 80, x + 80)"
+				/// @DnDArgument : "ypos" "random_range(y, y - 100)"
+				/// @DnDArgument : "objectid" "obj_turret"
+				/// @DnDSaveInfo : "objectid" "obj_turret"
+				instance_create_layer(random_range(x - 80, x + 80), random_range(y, y - 100), "Instances", obj_turret);
+			}
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 1B3B1326
+			/// @DnDParent : 31C51D05
+			/// @DnDArgument : "var" "next_move"
+			next_move = 0;
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDVersion : 1
+			/// @DnDHash : 6E3E97E2
+			/// @DnDParent : 31C51D05
+			/// @DnDArgument : "steps" "120"
+			alarm_set(0, 120);
+		}
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 62529105
+	/// @DnDComment : Second boss will charge at you
+	/// @DnDParent : 09D3E254
+	/// @DnDArgument : "var" "charging"
+	/// @DnDArgument : "value" "true"
+	if(charging == true)
+	{
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 05ADAB56
+		/// @DnDParent : 62529105
+		/// @DnDArgument : "var" "charge_attack"
+		/// @DnDArgument : "value" "false"
+		if(charge_attack == false)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 363FEAF7
+			/// @DnDParent : 05ADAB56
+			/// @DnDArgument : "expr" "true"
+			/// @DnDArgument : "var" "charge_attack"
+			charge_attack = true;
+		
+			/// @DnDAction : YoYo Games.Movement.Set_Speed
+			/// @DnDVersion : 1
+			/// @DnDHash : 079682B3
+			/// @DnDParent : 05ADAB56
+			speed = 0;
+		
+			/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+			/// @DnDVersion : 1
+			/// @DnDHash : 1DC115BF
+			/// @DnDParent : 05ADAB56
+			/// @DnDArgument : "obj" "obj_player"
+			/// @DnDSaveInfo : "obj" "obj_player"
+			var l1DC115BF_0 = false;
+			l1DC115BF_0 = instance_exists(obj_player);
+			if(l1DC115BF_0)
+			{
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 79155C1C
+				/// @DnDParent : 1DC115BF
+				/// @DnDArgument : "x" "obj_player.x"
+				/// @DnDArgument : "y" "y"
+				direction = point_direction(x, y, obj_player.x, y);
+			
+				/// @DnDAction : YoYo Games.Common.If_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 65F9EB49
+				/// @DnDParent : 1DC115BF
+				/// @DnDArgument : "var" "obj_player.x"
+				/// @DnDArgument : "op" "1"
+				/// @DnDArgument : "value" "x"
+				if(obj_player.x < x)
+				{
+					/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+					/// @DnDVersion : 1
+					/// @DnDHash : 40EA09E1
+					/// @DnDParent : 65F9EB49
+					/// @DnDArgument : "xscale" "-1"
+					image_xscale = -1;
+					image_yscale = 1;
+				}
+			
+				/// @DnDAction : YoYo Games.Common.Else
+				/// @DnDVersion : 1
+				/// @DnDHash : 64F67FEE
+				/// @DnDParent : 1DC115BF
+				else
+				{
+					/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+					/// @DnDVersion : 1
+					/// @DnDHash : 58C55537
+					/// @DnDParent : 64F67FEE
+					image_xscale = 1;
+					image_yscale = 1;
+				}
+			}
+		
+			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 38049898
+			/// @DnDParent : 05ADAB56
+			/// @DnDArgument : "xpos_relative" "1"
+			/// @DnDArgument : "ypos" "-70"
+			/// @DnDArgument : "ypos_relative" "1"
+			/// @DnDArgument : "objectid" "obj_chargeAlert"
+			/// @DnDSaveInfo : "objectid" "obj_chargeAlert"
+			instance_create_layer(x + 0, y + -70, "Instances", obj_chargeAlert);
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 578E73FF
+			/// @DnDParent : 05ADAB56
+			/// @DnDArgument : "var" "next_move"
+			next_move = 0;
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDVersion : 1
+			/// @DnDHash : 384E1C2B
+			/// @DnDParent : 05ADAB56
+			/// @DnDArgument : "alarm" "2"
+			alarm_set(2, 30);
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDVersion : 1
+			/// @DnDHash : 5835B681
+			/// @DnDParent : 05ADAB56
+			/// @DnDArgument : "steps" "random_range(210, 330)"
+			alarm_set(0, random_range(210, 330));
+		}
 	}
 }

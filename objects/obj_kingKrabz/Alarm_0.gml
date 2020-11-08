@@ -12,6 +12,18 @@ switch(l625A73D6_0)
 	case 0:
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
+		/// @DnDHash : 33A9994C
+		/// @DnDInput : 2
+		/// @DnDParent : 6F0D080D
+		/// @DnDArgument : "expr" "25"
+		/// @DnDArgument : "expr_1" "false"
+		/// @DnDArgument : "var" "collision_damage"
+		/// @DnDArgument : "var_1" "charge_attack"
+		collision_damage = 25;
+		charge_attack = false;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
 		/// @DnDHash : 2C96650B
 		/// @DnDInput : 5
 		/// @DnDParent : 6F0D080D
@@ -96,37 +108,9 @@ switch(l625A73D6_0)
 	case 3:
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 6D2BC6B3
-		/// @DnDInput : 5
-		/// @DnDParent : 623B5433
-		/// @DnDArgument : "expr" "false"
-		/// @DnDArgument : "expr_1" "false"
-		/// @DnDArgument : "expr_2" "false"
-		/// @DnDArgument : "expr_3" "true"
-		/// @DnDArgument : "expr_4" "false"
-		/// @DnDArgument : "var" "idling"
-		/// @DnDArgument : "var_1" "shooting"
-		/// @DnDArgument : "var_2" "charging"
-		/// @DnDArgument : "var_3" "spawning"
-		/// @DnDArgument : "var_4" "laser"
-		idling = false;
-		shooting = false;
-		charging = false;
-		spawning = true;
-		laser = false;
-		break;
-
-	/// @DnDAction : YoYo Games.Switch.Case
-	/// @DnDVersion : 1
-	/// @DnDHash : 3C728632
-	/// @DnDParent : 625A73D6
-	/// @DnDArgument : "const" "4"
-	case 4:
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
 		/// @DnDHash : 6360F799
 		/// @DnDInput : 5
-		/// @DnDParent : 3C728632
+		/// @DnDParent : 623B5433
 		/// @DnDArgument : "expr" "false"
 		/// @DnDArgument : "expr_1" "false"
 		/// @DnDArgument : "expr_2" "false"
@@ -144,11 +128,51 @@ switch(l625A73D6_0)
 		laser = true;
 		break;
 
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 3C728632
+	/// @DnDParent : 625A73D6
+	/// @DnDArgument : "const" "4"
+	case 4:
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 6D2BC6B3
+		/// @DnDInput : 5
+		/// @DnDParent : 3C728632
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "expr_1" "false"
+		/// @DnDArgument : "expr_2" "false"
+		/// @DnDArgument : "expr_3" "true"
+		/// @DnDArgument : "expr_4" "false"
+		/// @DnDArgument : "var" "idling"
+		/// @DnDArgument : "var_1" "shooting"
+		/// @DnDArgument : "var_2" "charging"
+		/// @DnDArgument : "var_3" "spawning"
+		/// @DnDArgument : "var_4" "laser"
+		idling = false;
+		shooting = false;
+		charging = false;
+		spawning = true;
+		laser = false;
+		break;
+
 	/// @DnDAction : YoYo Games.Switch.Default
 	/// @DnDVersion : 1
 	/// @DnDHash : 7B4948D2
 	/// @DnDParent : 625A73D6
 	default:
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 71C374BC
+		/// @DnDInput : 2
+		/// @DnDParent : 7B4948D2
+		/// @DnDArgument : "expr" "25"
+		/// @DnDArgument : "expr_1" "false"
+		/// @DnDArgument : "var" "collision_damage"
+		/// @DnDArgument : "var_1" "charge_attack"
+		collision_damage = 25;
+		charge_attack = false;
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 13AC7777
