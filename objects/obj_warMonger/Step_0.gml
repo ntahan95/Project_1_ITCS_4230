@@ -120,9 +120,9 @@ if(aggro == true)
 			/// @DnDHash : 40B20D79
 			/// @DnDComment : Boss uses irandom_range to$(13_10)choose his next state
 			/// @DnDParent : 5433821A
-			/// @DnDArgument : "expr" "1"
+			/// @DnDArgument : "expr" "irandom_range(1, 4)"
 			/// @DnDArgument : "var" "next_move"
-			next_move = 1;
+			next_move = irandom_range(1, 4);
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
