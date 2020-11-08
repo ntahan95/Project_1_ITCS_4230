@@ -110,52 +110,53 @@ if(aggro == true)
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 5433821A
-		/// @DnDDisabled : 1
-		/// @DnDParent : 4A11FC49
-		/// @DnDArgument : "var" "next_move"
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 40B20D79
-		/// @DnDComment : Boss uses irandom_range to$(13_10)choose his next state
-		/// @DnDDisabled : 1
-		/// @DnDParent : 5433821A
-		/// @DnDArgument : "expr" "irandom_range(1, 4)"
-		/// @DnDArgument : "var" "next_move"
-		
-		
-		/// @DnDAction : YoYo Games.Instances.Set_Alarm
-		/// @DnDVersion : 1
-		/// @DnDHash : 7EEE4D74
-		/// @DnDComment : changes state 3-5 seconds after idling
-		/// @DnDDisabled : 1
-		/// @DnDParent : 5433821A
-		/// @DnDArgument : "steps" "random_range(180, 300)"
-	
-		/// @DnDAction : YoYo Games.Common.If_Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 0FD1F5F8
-		/// @DnDComment : test code, always picks shoot
+		/// @DnDComment : Final boss' code, picks randomly out of everyhing
 		/// @DnDParent : 4A11FC49
 		/// @DnDArgument : "var" "next_move"
 		if(next_move == 0)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 38B5A0AE
+			/// @DnDHash : 40B20D79
 			/// @DnDComment : Boss uses irandom_range to$(13_10)choose his next state
-			/// @DnDParent : 0FD1F5F8
-			/// @DnDArgument : "expr" "2"
+			/// @DnDParent : 5433821A
+			/// @DnDArgument : "expr" "irandom_range(1, 4)"
 			/// @DnDArgument : "var" "next_move"
-			next_move = 2;
+			next_move = irandom_range(1, 4);
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
-			/// @DnDHash : 17584A46
+			/// @DnDHash : 7EEE4D74
 			/// @DnDComment : changes state 3-5 seconds after idling
-			/// @DnDParent : 0FD1F5F8
+			/// @DnDParent : 5433821A
 			/// @DnDArgument : "steps" "random_range(180, 300)"
 			alarm_set(0, random_range(180, 300));
 		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0FD1F5F8
+		/// @DnDComment : Crab's code, always picks shoot
+		/// @DnDDisabled : 1
+		/// @DnDParent : 4A11FC49
+		/// @DnDArgument : "var" "next_move"
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 38B5A0AE
+		/// @DnDComment : Boss uses irandom_range to$(13_10)choose his next state
+		/// @DnDDisabled : 1
+		/// @DnDParent : 0FD1F5F8
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "var" "next_move"
+		
+		
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 17584A46
+		/// @DnDComment : changes state 3-5 seconds after idling
+		/// @DnDDisabled : 1
+		/// @DnDParent : 0FD1F5F8
+		/// @DnDArgument : "steps" "random_range(180, 300)"
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -452,6 +453,113 @@ if(aggro == true)
 			/// @DnDParent : 05ADAB56
 			/// @DnDArgument : "steps" "random_range(210, 330)"
 			alarm_set(0, random_range(210, 330));
+		}
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 44A9DDE7
+	/// @DnDParent : 09D3E254
+	/// @DnDArgument : "var" "laser"
+	/// @DnDArgument : "value" "true"
+	if(laser == true)
+	{
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 6F405A58
+		/// @DnDParent : 44A9DDE7
+		/// @DnDArgument : "var" "laser_fired"
+		/// @DnDArgument : "value" "false"
+		if(laser_fired == false)
+		{
+			/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+			/// @DnDVersion : 1
+			/// @DnDHash : 5D8D2330
+			/// @DnDParent : 6F405A58
+			/// @DnDArgument : "obj" "obj_player"
+			/// @DnDSaveInfo : "obj" "obj_player"
+			var l5D8D2330_0 = false;
+			l5D8D2330_0 = instance_exists(obj_player);
+			if(l5D8D2330_0)
+			{
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 5D005ECB
+				/// @DnDParent : 5D8D2330
+				speed = 0;
+			
+				/// @DnDAction : YoYo Games.Common.If_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7F576B23
+				/// @DnDParent : 5D8D2330
+				/// @DnDArgument : "var" "obj_player.x"
+				/// @DnDArgument : "op" "1"
+				/// @DnDArgument : "value" "x"
+				if(obj_player.x < x)
+				{
+					/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+					/// @DnDVersion : 1
+					/// @DnDHash : 3093C024
+					/// @DnDParent : 7F576B23
+					/// @DnDArgument : "xscale" "-1"
+					image_xscale = -1;
+					image_yscale = 1;
+				
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 787E755A
+					/// @DnDParent : 7F576B23
+					/// @DnDArgument : "xpos" "-64"
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos_relative" "1"
+					/// @DnDArgument : "objectid" "obj_laserAlert"
+					/// @DnDSaveInfo : "objectid" "obj_laserAlert"
+					instance_create_layer(x + -64, y + 0, "Instances", obj_laserAlert);
+				}
+			
+				/// @DnDAction : YoYo Games.Common.Else
+				/// @DnDVersion : 1
+				/// @DnDHash : 43EA45FE
+				/// @DnDParent : 5D8D2330
+				else
+				{
+					/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+					/// @DnDVersion : 1
+					/// @DnDHash : 154C0FBF
+					/// @DnDParent : 43EA45FE
+					image_xscale = 1;
+					image_yscale = 1;
+				
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 26573231
+					/// @DnDParent : 43EA45FE
+					/// @DnDArgument : "xpos" "64"
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos_relative" "1"
+					/// @DnDArgument : "objectid" "obj_laserAlert"
+					/// @DnDSaveInfo : "objectid" "obj_laserAlert"
+					instance_create_layer(x + 64, y + 0, "Instances", obj_laserAlert);
+				}
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 0AE5BE09
+				/// @DnDInput : 2
+				/// @DnDParent : 5D8D2330
+				/// @DnDArgument : "expr_1" "true"
+				/// @DnDArgument : "var" "next_move"
+				/// @DnDArgument : "var_1" "laser_fired"
+				next_move = 0;
+				laser_fired = true;
+			
+				/// @DnDAction : YoYo Games.Instances.Set_Alarm
+				/// @DnDVersion : 1
+				/// @DnDHash : 04355324
+				/// @DnDParent : 5D8D2330
+				/// @DnDArgument : "steps" "160"
+				alarm_set(0, 160);
+			}
 		}
 	}
 }
