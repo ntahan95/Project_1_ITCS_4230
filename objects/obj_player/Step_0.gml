@@ -295,3 +295,17 @@ if (l27D9D19D_0)
 		}
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2971E527
+/// @DnDArgument : "var" "hp"
+/// @DnDArgument : "op" "3"
+if(hp <= 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 595CEA1F
+	/// @DnDParent : 2971E527
+	instance_destroy();
+}
