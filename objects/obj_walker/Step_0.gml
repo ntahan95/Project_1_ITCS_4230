@@ -119,7 +119,8 @@ if(l519A5745_0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 07DD107C
 			/// @DnDParent : 4C67D76F
-			alarm_set(0, 30);
+			/// @DnDArgument : "steps" "90"
+			alarm_set(0, 90);
 		}
 	
 		/// @DnDAction : YoYo Games.Instances.If_Instance_Exists

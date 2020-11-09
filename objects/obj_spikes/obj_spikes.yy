@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"collision_damage","path":"objects/obj_harmful/obj_harmful.yy",},"objectId":{"name":"obj_harmful","path":"objects/obj_harmful/obj_harmful.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"collision_damage","path":"objects/obj_harmful/obj_harmful.yy",},"objectId":{"name":"obj_harmful","path":"objects/obj_harmful/obj_harmful.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
