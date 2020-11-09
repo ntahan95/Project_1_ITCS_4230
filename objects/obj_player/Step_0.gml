@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5EA1BEC6
-/// @DnDArgument : "code" "//if the player has a gun in the list, they hasGun$(13_10)if (ds_list_size(gunInventory) > 0){$(13_10)	hasGun = true;$(13_10)}$(13_10)//otherwise they dont $(13_10)else$(13_10){$(13_10)	hasGun = false;$(13_10)}$(13_10)$(13_10)if (instance_place(x, y, obj_npc)){$(13_10)	if (keyboard_check_pressed(vk_down)){$(13_10)		talking = true$(13_10)	}$(13_10)}$(13_10)else{$(13_10)	talking = false;$(13_10)}"
+/// @DnDArgument : "code" "//if the player has a gun in the list, they hasGun$(13_10)if (ds_list_size(gunInventory) > 0){$(13_10)	hasGun = true;$(13_10)}$(13_10)//otherwise they dont $(13_10)else$(13_10){$(13_10)	hasGun = false;$(13_10)}"
 //if the player has a gun in the list, they hasGun
 if (ds_list_size(gunInventory) > 0){
 	hasGun = true;
@@ -10,15 +10,6 @@ if (ds_list_size(gunInventory) > 0){
 else
 {
 	hasGun = false;
-}
-
-if (instance_place(x, y, obj_npc)){
-	if (keyboard_check_pressed(vk_down)){
-		talking = true
-	}
-}
-else{
-	talking = false;
 }
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
@@ -191,8 +182,8 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 78A14DD6
 	/// @DnDParent : 576D064F
-	/// @DnDArgument : "force" ".7"
-	gravity = .7;
+	/// @DnDArgument : "force" ".5"
+	gravity = .5;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
