@@ -1,3 +1,12 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 4A362254
+/// @DnDArgument : "code" "instance_destroy(obj_flyer)$(13_10)instance_destroy(obj_walker)$(13_10)//turns on boss spawner for level 2$(13_10)instance_activate_object(obj_spawner1)"
+instance_destroy(obj_flyer)
+instance_destroy(obj_walker)
+//turns on boss spawner for level 2
+instance_activate_object(obj_spawner1)
+
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 532A6659

@@ -29,8 +29,8 @@
     {"propertyId":{"name":"gunType","path":"objects/obj_gun1/obj_gun1.yy",},"objectId":{"name":"obj_gun1","path":"objects/obj_gun1/obj_gun1.yy",},"value":"Rifle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_gun2",
