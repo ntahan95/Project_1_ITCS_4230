@@ -309,3 +309,58 @@ if(hp <= 0)
 	/// @DnDParent : 2971E527
 	instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 7BCC2C8B
+/// @DnDArgument : "key" "vk_down"
+var l7BCC2C8B_0;
+l7BCC2C8B_0 = keyboard_check(vk_down);
+if (l7BCC2C8B_0)
+{
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+	/// @DnDVersion : 1
+	/// @DnDHash : 6C8A07B3
+	/// @DnDParent : 7BCC2C8B
+	/// @DnDArgument : "obj" "obj_npc"
+	/// @DnDSaveInfo : "obj" "obj_npc"
+	var l6C8A07B3_0 = false;
+	l6C8A07B3_0 = instance_exists(obj_npc);
+	if(l6C8A07B3_0)
+	{
+		/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 04ECAA70
+		/// @DnDParent : 6C8A07B3
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "obj" "obj_npc"
+		/// @DnDArgument : "notme" "0"
+		/// @DnDSaveInfo : "obj" "obj_npc"
+		var l04ECAA70_0 = collision_point(x + 0, y + 0, obj_npc, true, 0);
+		if((l04ECAA70_0))
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 0C9BB56A
+			/// @DnDParent : 04ECAA70
+			/// @DnDArgument : "expr" "true"
+			/// @DnDArgument : "var" "talking"
+			talking = true;
+		}
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 09DAF440
+else
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1FC22337
+	/// @DnDParent : 09DAF440
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "talking"
+	talking = false;
+}
