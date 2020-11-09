@@ -31,6 +31,7 @@
     {"id":{"name":"obj_kingKrabz","path":"objects/obj_kingKrabz/obj_kingKrabz.yy",},"order":0,},
     {"id":{"name":"spr_jungle1","path":"sprites/spr_jungle1/spr_jungle1.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"sound_gunshot","path":"sounds/sound_gunshot/sound_gunshot.yy",},"order":0,},
     {"id":{"name":"spr_cutTrees","path":"sprites/spr_cutTrees/spr_cutTrees.yy",},"order":4,},
     {"id":{"name":"spr_walker","path":"sprites/spr_walker/spr_walker.yy",},"order":1,},
     {"id":{"name":"spr_walkerbullet","path":"sprites/spr_walkerbullet/spr_walkerbullet.yy",},"order":1,},
