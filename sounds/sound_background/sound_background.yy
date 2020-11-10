@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.14,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_background.mp3",
-  "duration": 95.90051,
+  "duration": 0.0,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
