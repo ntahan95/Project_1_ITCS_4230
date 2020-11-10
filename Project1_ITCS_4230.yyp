@@ -79,6 +79,7 @@
     {"id":{"name":"obj_ammo","path":"objects/obj_ammo/obj_ammo.yy",},"order":4,},
     {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},"order":32,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":3,},
+    {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":40,},
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},"order":30,},
     {"id":{"name":"obj_warMonger","path":"objects/obj_warMonger/obj_warMonger.yy",},"order":7,},
     {"id":{"name":"Level_Menu","path":"rooms/Level_Menu/Level_Menu.yy",},"order":5,},
