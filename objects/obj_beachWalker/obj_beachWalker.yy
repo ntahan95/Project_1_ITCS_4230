@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_spikes",
-    "path": "sprites/spr_spikes/spr_spikes.yy",
+    "name": "spr_crab",
+    "path": "sprites/spr_crab/spr_crab.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_harmful",
-    "path": "objects/obj_harmful/obj_harmful.yy",
+    "name": "obj_walker",
+    "path": "objects/obj_walker/obj_walker.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,15 +25,13 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"collision_damage","path":"objects/obj_harmful/obj_harmful.yy",},"objectId":{"name":"obj_harmful","path":"objects/obj_harmful/obj_harmful.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-  ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_spikes",
+  "name": "obj_beachWalker",
   "tags": [],
   "resourceType": "GMObject",
 }
