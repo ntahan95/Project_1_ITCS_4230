@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5EA1BEC6
-/// @DnDArgument : "code" "//if the player has a gun in the list, they hasGun$(13_10)if (ds_list_size(gunInventory) > 0){$(13_10)	hasGun = true;$(13_10)}$(13_10)//otherwise they dont $(13_10)else$(13_10){$(13_10)	hasGun = false;$(13_10)}$(13_10)$(13_10)if (instance_place(x, y, obj_npc)){$(13_10)	if (keyboard_check_pressed(vk_down)){$(13_10)		talking = true$(13_10)	}$(13_10)}$(13_10)else{$(13_10)	talking = false;$(13_10)}"
+/// @DnDArgument : "code" "//if the player has a gun in the list, they hasGun$(13_10)if (ds_list_size(gunInventory) > 0){$(13_10)	hasGun = true;$(13_10)}$(13_10)//otherwise they dont $(13_10)else$(13_10){$(13_10)	hasGun = false;$(13_10)}"
 //if the player has a gun in the list, they hasGun
 if (ds_list_size(gunInventory) > 0){
 	hasGun = true;
@@ -10,15 +10,6 @@ if (ds_list_size(gunInventory) > 0){
 else
 {
 	hasGun = false;
-}
-
-if (instance_place(x, y, obj_npc)){
-	if (keyboard_check_pressed(vk_down)){
-		talking = true
-	}
-}
-else{
-	talking = false;
 }
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
@@ -191,8 +182,8 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 78A14DD6
 	/// @DnDParent : 576D064F
-	/// @DnDArgument : "force" ".7"
-	gravity = .7;
+	/// @DnDArgument : "force" ".5"
+	gravity = .5;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -269,14 +260,6 @@ if (l27D9D19D_0)
 			/// @DnDParent : 28D0245F
 			/// @DnDArgument : "steps" "room_speed / 4"
 			alarm_set(0, room_speed / 4);
-		
-			/// @DnDAction : YoYo Games.Audio.Play_Audio
-			/// @DnDVersion : 1
-			/// @DnDHash : 6D725E59
-			/// @DnDParent : 28D0245F
-			/// @DnDArgument : "soundid" "sound_gunshot"
-			/// @DnDSaveInfo : "soundid" "sound_gunshot"
-			audio_play_sound(sound_gunshot, 0, 0);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Else
@@ -309,14 +292,6 @@ if (l27D9D19D_0)
 			/// @DnDParent : 3B5A07B3
 			/// @DnDArgument : "steps" "room_speed / 2"
 			alarm_set(0, room_speed / 2);
-		
-			/// @DnDAction : YoYo Games.Audio.Play_Audio
-			/// @DnDVersion : 1
-			/// @DnDHash : 50ABC4CB
-			/// @DnDParent : 3B5A07B3
-			/// @DnDArgument : "soundid" "sound_gunshot"
-			/// @DnDSaveInfo : "soundid" "sound_gunshot"
-			audio_play_sound(sound_gunshot, 0, 0);
 		}
 	}
 }
@@ -333,4 +308,59 @@ if(hp <= 0)
 	/// @DnDHash : 595CEA1F
 	/// @DnDParent : 2971E527
 	instance_destroy();
+}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 7BCC2C8B
+/// @DnDArgument : "key" "vk_down"
+var l7BCC2C8B_0;
+l7BCC2C8B_0 = keyboard_check(vk_down);
+if (l7BCC2C8B_0)
+{
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+	/// @DnDVersion : 1
+	/// @DnDHash : 6C8A07B3
+	/// @DnDParent : 7BCC2C8B
+	/// @DnDArgument : "obj" "obj_npc"
+	/// @DnDSaveInfo : "obj" "obj_npc"
+	var l6C8A07B3_0 = false;
+	l6C8A07B3_0 = instance_exists(obj_npc);
+	if(l6C8A07B3_0)
+	{
+		/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 04ECAA70
+		/// @DnDParent : 6C8A07B3
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "obj" "obj_npc"
+		/// @DnDArgument : "notme" "0"
+		/// @DnDSaveInfo : "obj" "obj_npc"
+		var l04ECAA70_0 = collision_point(x + 0, y + 0, obj_npc, true, 0);
+		if((l04ECAA70_0))
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 0C9BB56A
+			/// @DnDParent : 04ECAA70
+			/// @DnDArgument : "expr" "true"
+			/// @DnDArgument : "var" "talking"
+			talking = true;
+		}
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 09DAF440
+else
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1FC22337
+	/// @DnDParent : 09DAF440
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "talking"
+	talking = false;
 }

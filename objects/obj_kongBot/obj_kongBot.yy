@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_crabBoss",
-    "path": "sprites/spr_crabBoss/spr_crabBoss.yy",
+    "name": "spr_gorillaBoss",
+    "path": "sprites/spr_gorillaBoss/spr_gorillaBoss.yy",
   },
   "solid": false,
   "visible": true,

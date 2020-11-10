@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"eea4c099-f36b-4585-8e01-e605aacf0435","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "EnemyAssets",
+    "path": "folders/Sprites/EnemyAssets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_crabBoss",
