@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_enemyDeath.wav",
-  "duration": 1.842279,
+  "soundFile": "sound_enemydeath.wav",
+  "duration": 0.0,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_enemyDeath",
+  "name": "sound_enemydeath",
   "tags": [],
   "resourceType": "GMSound",
 }
