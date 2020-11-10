@@ -44,6 +44,7 @@
     {"id":{"name":"obj_bossFlyer","path":"objects/obj_bossFlyer/obj_bossFlyer.yy",},"order":6,},
     {"id":{"name":"spr_gun2","path":"sprites/spr_gun2/spr_gun2.yy",},"order":0,},
     {"id":{"name":"spr_miniCastle","path":"sprites/spr_miniCastle/spr_miniCastle.yy",},"order":3,},
+    {"id":{"name":"spr_heliflyer","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"order":39,},
     {"id":{"name":"sound_enemyDeath","path":"sounds/sound_enemyDeath/sound_enemyDeath.yy",},"order":7,},
     {"id":{"name":"obj_bulletWalker","path":"objects/obj_bulletWalker/obj_bulletWalker.yy",},"order":2,},
     {"id":{"name":"obj_spawner2","path":"objects/obj_spawner2/obj_spawner2.yy",},"order":9,},

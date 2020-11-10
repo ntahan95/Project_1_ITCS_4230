@@ -1,15 +1,15 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 0,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 21,
-  "bbox_right": 41,
-  "bbox_top": 20,
+  "bbox_left": 18,
+  "bbox_right": 44,
+  "bbox_top": 4,
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d62e26a6-1c2e-439e-bbcf-59a14ef280d5","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d62e26a6-1c2e-439e-bbcf-59a14ef280d5","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"LayerId":{"name":"ff18384c-855d-4072-94aa-e4be5a59f2c8","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_heliflyer","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","name":"d62e26a6-1c2e-439e-bbcf-59a14ef280d5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"177a11bb-c51b-43e1-8f39-9d671aad0f49","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"177a11bb-c51b-43e1-8f39-9d671aad0f49","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"LayerId":{"name":"c489603d-961c-4bd5-9ab0-580656f69761","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_heliflyer","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","name":"177a11bb-c51b-43e1-8f39-9d671aad0f49","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_heliflyer","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9d0054ef-2f6c-4175-856f-75e6f0e69127","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d62e26a6-1c2e-439e-bbcf-59a14ef280d5","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f5271ae2-18b3-4d00-9371-22b0ffea7aef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"177a11bb-c51b-43e1-8f39-9d671aad0f49","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 32,
-    "yorigin": 32,
+    "xorigin": 0,
+    "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_heliflyer","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ff18384c-855d-4072-94aa-e4be5a59f2c8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c489603d-961c-4bd5-9ab0-580656f69761","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
