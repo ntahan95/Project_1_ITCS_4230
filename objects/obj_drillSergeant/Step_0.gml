@@ -62,9 +62,9 @@ if(aggro == true)
 					/// @DnDVersion : 1
 					/// @DnDHash : 55B29EC6
 					/// @DnDParent : 2670C7DC
-					/// @DnDArgument : "expr" "-1"
+					/// @DnDArgument : "expr" "1"
 					/// @DnDArgument : "var" "image_xscale"
-					image_xscale = -1;
+					image_xscale = 1;
 				}
 			
 				/// @DnDAction : YoYo Games.Common.Else
@@ -77,9 +77,9 @@ if(aggro == true)
 					/// @DnDVersion : 1
 					/// @DnDHash : 28E36F95
 					/// @DnDParent : 69B45689
-					/// @DnDArgument : "expr" "1"
+					/// @DnDArgument : "expr" "-1"
 					/// @DnDArgument : "var" "image_xscale"
-					image_xscale = 1;
+					image_xscale = -1;
 				}
 			}
 		
@@ -101,9 +101,9 @@ if(aggro == true)
 				/// @DnDVersion : 1
 				/// @DnDHash : 6D3A28D5
 				/// @DnDParent : 18C7D81D
-				/// @DnDArgument : "expr" "-1"
+				/// @DnDArgument : "expr" "1"
 				/// @DnDArgument : "var" "image_xscale"
-				image_xscale = -1;
+				image_xscale = 1;
 			}
 		}
 	
@@ -240,8 +240,7 @@ if(aggro == true)
 				/// @DnDVersion : 1
 				/// @DnDHash : 0D7D1E53
 				/// @DnDParent : 495AAC7F
-				/// @DnDArgument : "xscale" "-1"
-				image_xscale = -1;
+				image_xscale = 1;
 				image_yscale = 1;
 			}
 		
@@ -255,7 +254,8 @@ if(aggro == true)
 				/// @DnDVersion : 1
 				/// @DnDHash : 438F3CA2
 				/// @DnDParent : 0CFFEAE2
-				image_xscale = 1;
+				/// @DnDArgument : "xscale" "-1"
+				image_xscale = -1;
 				image_yscale = 1;
 			}
 		}
@@ -402,8 +402,7 @@ if(aggro == true)
 					/// @DnDVersion : 1
 					/// @DnDHash : 40EA09E1
 					/// @DnDParent : 65F9EB49
-					/// @DnDArgument : "xscale" "-1"
-					image_xscale = -1;
+					image_xscale = 1;
 					image_yscale = 1;
 				}
 			
@@ -417,7 +416,8 @@ if(aggro == true)
 					/// @DnDVersion : 1
 					/// @DnDHash : 58C55537
 					/// @DnDParent : 64F67FEE
-					image_xscale = 1;
+					/// @DnDArgument : "xscale" "-1"
+					image_xscale = -1;
 					image_yscale = 1;
 				}
 			}
@@ -501,8 +501,7 @@ if(aggro == true)
 					/// @DnDVersion : 1
 					/// @DnDHash : 3093C024
 					/// @DnDParent : 7F576B23
-					/// @DnDArgument : "xscale" "-1"
-					image_xscale = -1;
+					image_xscale = 1;
 					image_yscale = 1;
 				
 					/// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -527,7 +526,8 @@ if(aggro == true)
 					/// @DnDVersion : 1
 					/// @DnDHash : 154C0FBF
 					/// @DnDParent : 43EA45FE
-					image_xscale = 1;
+					/// @DnDArgument : "xscale" "-1"
+					image_xscale = -1;
 					image_yscale = 1;
 				
 					/// @DnDAction : YoYo Games.Instances.Create_Instance
