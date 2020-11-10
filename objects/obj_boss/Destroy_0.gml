@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 4367301F
+/// @DnDArgument : "soundid" "sound_bossDeath"
+/// @DnDSaveInfo : "soundid" "sound_bossDeath"
+audio_play_sound(sound_bossDeath, 0, 0);
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 73DA096A
