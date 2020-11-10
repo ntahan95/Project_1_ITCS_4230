@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e4d71592-2225-4ee5-afa0-6de6e08d4a7e","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e4d71592-2225-4ee5-afa0-6de6e08d4a7e","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"LayerId":{"name":"6a852665-6f02-4d81-a574-f565ae46679c","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_heliflyer","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","name":"e4d71592-2225-4ee5-afa0-6de6e08d4a7e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c6e2e46e-02c4-4cf2-9c5f-75fe9cf40fe8","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c6e2e46e-02c4-4cf2-9c5f-75fe9cf40fe8","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"LayerId":{"name":"42eefd9e-0e00-46a3-b5fa-fb975cf18328","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_heliflyer","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","name":"c6e2e46e-02c4-4cf2-9c5f-75fe9cf40fe8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_heliflyer","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"78f00d45-d941-4fd8-818e-d8c21e0628a4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4d71592-2225-4ee5-afa0-6de6e08d4a7e","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b837290a-0cde-4bcf-8586-79daa4e4a9e3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c6e2e46e-02c4-4cf2-9c5f-75fe9cf40fe8","path":"sprites/spr_heliflyer/spr_heliflyer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6a852665-6f02-4d81-a574-f565ae46679c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"42eefd9e-0e00-46a3-b5fa-fb975cf18328","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
