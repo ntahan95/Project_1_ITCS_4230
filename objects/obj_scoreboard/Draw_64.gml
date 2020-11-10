@@ -37,6 +37,24 @@ if(l1EEF5EF0_0)
 		draw_sprite(spr_life, 0, 15 + l30438C69_1, 50);
 		l30438C69_1 += l30438C69_0;
 	}
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 106D3A3F
+	/// @DnDParent : 1EEF5EF0
+	/// @DnDArgument : "code" "//checks and tells what gun the player currently has$(13_10)if (ds_list_empty(obj_player.gunInventory)){$(13_10)	draw_text(0, 0, string("no gun"));$(13_10)}$(13_10)else{$(13_10)draw_text(0, 0, string(obj_player.gunHeld));$(13_10)}$(13_10)$(13_10)$(13_10)//placeholder ammo text$(13_10)draw_text(100, 50, string("Ammo:"))$(13_10)draw_text(150, 50, string(obj_player.ammo))"
+	//checks and tells what gun the player currently has
+	if (ds_list_empty(obj_player.gunInventory)){
+		draw_text(0, 0, string("no gun"));
+	}
+	else{
+	draw_text(0, 0, string(obj_player.gunHeld));
+	}
+	
+	
+	//placeholder ammo text
+	draw_text(100, 50, string("Ammo:"))
+	draw_text(150, 50, string(obj_player.ammo))
 }
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
