@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 0CAE0C57
+/// @DnDArgument : "code" "//turns off spawner for next room$(13_10)instance_deactivate_object(obj_spawner1);"
+//turns off spawner for next room
+instance_deactivate_object(obj_spawner1);
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 3ECA7EBE
