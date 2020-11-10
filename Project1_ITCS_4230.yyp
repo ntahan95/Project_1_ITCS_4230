@@ -6,6 +6,7 @@
     {"id":{"name":"obj_harmful","path":"objects/obj_harmful/obj_harmful.yy",},"order":2,},
     {"id":{"name":"spr_spikes","path":"sprites/spr_spikes/spr_spikes.yy",},"order":36,},
     {"id":{"name":"spr_bulletBounds","path":"sprites/spr_bulletBounds/spr_bulletBounds.yy",},"order":38,},
+    {"id":{"name":"spr_drillBoss","path":"sprites/spr_drillBoss/spr_drillBoss.yy",},"order":40,},
     {"id":{"name":"path_bossFlyer","path":"paths/path_bossFlyer/path_bossFlyer.yy",},"order":1,},
     {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},"order":34,},
     {"id":{"name":"speechBubble","path":"scripts/speechBubble/speechBubble.yy",},"order":2,},

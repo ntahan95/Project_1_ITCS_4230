@@ -50,6 +50,7 @@
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"collision_damage","path":"objects/obj_harmfulAbsorb/obj_harmfulAbsorb.yy",},"objectId":{"name":"obj_harmfulAbsorb","path":"objects/obj_harmfulAbsorb/obj_harmfulAbsorb.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"aggro","path":"objects/obj_boss/obj_boss.yy",},"objectId":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Bosses",
