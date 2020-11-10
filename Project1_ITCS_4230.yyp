@@ -50,6 +50,7 @@
     {"id":{"name":"obj_jungleWalker","path":"objects/obj_jungleWalker/obj_jungleWalker.yy",},"order":8,},
     {"id":{"name":"spr_turret","path":"sprites/spr_turret/spr_turret.yy",},"order":31,},
     {"id":{"name":"spr_cutSingleTree","path":"sprites/spr_cutSingleTree/spr_cutSingleTree.yy",},"order":6,},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":27,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":1,},
     {"id":{"name":"obj_absorb","path":"objects/obj_absorb/obj_absorb.yy",},"order":0,},
     {"id":{"name":"obj_life","path":"objects/obj_life/obj_life.yy",},"order":3,},
