@@ -23,7 +23,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"objectType","path":"objects/obj_spawner1/obj_spawner1.yy",},"objectId":{"name":"obj_spawner1","path":"objects/obj_spawner1/obj_spawner1.yy",},"value":"obj_walker","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"objectType","path":"objects/obj_spawner1/obj_spawner1.yy",},"objectId":{"name":"obj_spawner1","path":"objects/obj_spawner1/obj_spawner1.yy",},"value":"obj_jungleWalker","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",

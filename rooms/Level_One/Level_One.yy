@@ -38,6 +38,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_beachWalker","path":"objects/obj_beachWalker/obj_beachWalker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":288.0,"resourceVersion":"1.0","name":"inst_73A45C67","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_beachWalker","path":"objects/obj_beachWalker/obj_beachWalker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":128.0,"resourceVersion":"1.0","name":"inst_10A1AED2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_beachWalker","path":"objects/obj_beachWalker/obj_beachWalker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1536.0,"y":544.0,"resourceVersion":"1.0","name":"inst_702DBB3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_flyer","path":"objects/obj_flyer/obj_flyer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":416.0,"resourceVersion":"1.0","name":"inst_18AC3FD","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":576.0,"resourceVersion":"1.0","name":"inst_33D82535","tags":[],"resourceType":"GMRInstance",},
@@ -822,6 +823,7 @@
     {"name":"inst_2810EFFB","path":"rooms/Level_One/Level_One.yy",},
     {"name":"inst_4D583F15","path":"rooms/Level_One/Level_One.yy",},
     {"name":"inst_7B66EDBB","path":"rooms/Level_One/Level_One.yy",},
+    {"name":"inst_18AC3FD","path":"rooms/Level_One/Level_One.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
