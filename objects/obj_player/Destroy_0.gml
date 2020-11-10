@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 7DCDE830
+/// @DnDDisabled : 1
 /// @DnDArgument : "soundid" "sound_playerDeath"
-/// @DnDSaveInfo : "soundid" "sound_playerDeath"
-audio_play_sound(sound_playerDeath, 0, 0);
+
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
