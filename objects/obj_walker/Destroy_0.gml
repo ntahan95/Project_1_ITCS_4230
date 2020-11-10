@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 7BCD7ED8
+/// @DnDArgument : "soundid" "sound_enemyDeath"
+/// @DnDSaveInfo : "soundid" "sound_enemyDeath"
+audio_play_sound(sound_enemyDeath, 0, 0);
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
 /// @DnDVersion : 1
 /// @DnDHash : 664A5D68
