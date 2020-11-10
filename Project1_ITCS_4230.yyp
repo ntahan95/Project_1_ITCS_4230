@@ -79,6 +79,7 @@
     {"id":{"name":"Level_Two","path":"rooms/Level_Two/Level_Two.yy",},"order":1,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":0,},
     {"id":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"order":3,},
+    {"id":{"name":"sound_background","path":"sounds/sound_background/sound_background.yy",},"order":1,},
     {"id":{"name":"obj_laserAlert","path":"objects/obj_laserAlert/obj_laserAlert.yy",},"order":3,},
     {"id":{"name":"spr_firetrap","path":"sprites/spr_firetrap/spr_firetrap.yy",},"order":37,},
     {"id":{"name":"spr_castlebottom","path":"sprites/spr_castlebottom/spr_castlebottom.yy",},"order":2,},
