@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_heliflyer",
-    "path": "sprites/spr_heliflyer/spr_heliflyer.yy",
+    "name": "spr_flyer",
+    "path": "sprites/spr_flyer/spr_flyer.yy",
   },
   "solid": false,
   "visible": true,
