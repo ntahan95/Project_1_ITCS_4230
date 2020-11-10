@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 774CB207
+/// @DnDArgument : "code" "instance_deactivate_object(obj_scoreboard)"
+instance_deactivate_object(obj_scoreboard)
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 759C1EDA
@@ -12,3 +18,10 @@ audio_play_sound(sound_background, 0, 1);
 /// @DnDArgument : "value" "false"
 /// @DnDArgument : "var" "game_over"
 global.game_over = false;
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 6D4C65E3
+/// @DnDArgument : "lives" "3"
+
+__dnd_lives = real(3);
